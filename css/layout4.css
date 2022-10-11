@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    color: red;
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 24px 24px;
+}
+
+.large-box{
+    width: 45%;
+    height: 400px;
+}
+
+.box-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 7%;
+}
+
+.small-box{
+    height: 70px;
+}
+
+.tiny-box{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+
+}
+
+.tiny-box-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+}
