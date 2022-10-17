@@ -18,6 +18,7 @@ nav {
     background-color: #cafdff;
 }
 
+
 header{
     background-color: #eadcff;
     height: calc(100vh - 70px); /* 100 viewheigh minus the nav's height */
@@ -26,9 +27,14 @@ header{
     align-items: center;
     justify-content: center;
 }
+a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 h1{
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .subheader{
@@ -44,11 +50,7 @@ button{
     font-size: 24px;
     cursor: pointer;
 }
-a{
-    color: #000;
-    font-size: 24px;
-    font-weight: 700;
-}
+
 .logo{
     width: 300px; 
 }
@@ -63,3 +65,67 @@ li{
     padding-left: 16px;
 
 }
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+
+
+About section
+
+
+*/
+
+#about{
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}
+
+.section__description--wrapper{
+    width: 60%;
+}
+
+.section__description--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about__img--wrapper,
+.section__description--wrapper{
+    padding: 0 24px;
+}
+
+/* 
+
+
+Discord section
+
+
+*/
