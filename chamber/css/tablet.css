@@ -25,21 +25,50 @@
         flex-direction: row;
         gap: 8px;
     }
-/*
-    #block1 {
-        float: left;
-        display: block;
-        width: 300px;
-        border: 1px solid blue;
-        margin: 2px;
-        }
-        
-        #block2 {
-        float: left;
-        display: block;
-        width: 300px;
-        border: 1px solid blue;
-        margin: 2px;
-        }
-*/
+
+
+
+
+
+
+    .nav__logo {
+        width: 180px;
+        height: 180px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+ 
+  
+    i {
+        font-size: 2em;
+        margin-right: 10px;
+    }    
+
+    .nav__container--title {
+        font-size: 1.5em;
+    }
+
+    .main-container{
+        font-size: 20px;
+    }
+
+    .footer-container > * {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
 }
