@@ -1,0 +1,51 @@
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;  /*nowrap is default. allows elements to wrap when not enough space */
+
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav-list li {
+    border: 1px solid black;
+    flex-grow: 0;   /* will allow to elements grow all over the width of the parent element if there's space. the default is 0*/
+    flex-shrink: 1; /* default value is 1*/
+}
+
+.box {
+    border: 1px solid black;
+}
+
+/*  
+Cards section
+*/
+
+
+.columns {
+    display: flex;
+    gap: 2rem;
+    border: 8px solid firebrick;
+    align-items: flex-start;
+    
+}
+
+.card {
+    border: 4px solid black;
+    background-color: cadetblue;
+}
+
+.columns > * {
+    flex: 1;  /*makes everything become equal in size*/
+    /* flex-basis is the same as width (sort of ) */
+    flex-basis: 100%;
+    
+}
+
+.card:nth-child(3) {
+    background-color: pink;
+    align-self: flex-end;
+}
