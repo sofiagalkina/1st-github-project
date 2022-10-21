@@ -23,6 +23,7 @@
     .spotlight-wrap {
         display: flex;
         flex-direction: row;
+        gap: 8px;
     }
 /*
     #block1 {
