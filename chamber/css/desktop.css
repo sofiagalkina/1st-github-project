@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+    i {
+        font-size: 3em;
+        margin-right: 10px;
+    }  
+
+    
+    .nav__logo {
+        width: 240px;
+        height: 240px;
+    }
+
+
+
+    .nav__title--h {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .main-container{
+        font-size: 25px;
+    }
+
+
+    .footer-container > * {
+        font-size: 25px;
+    }
+
+    .box ul {
+        display: flex;
+        visibility: visible;
+        list-style: none;
+        gap: 10px;
+        font-size: 28px;
+        margin: 0 20px;
+    }
+
+    .date {
+        font-weight: 500;
+    }
+
+
+
+
+
+
+}
