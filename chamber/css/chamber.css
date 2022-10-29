@@ -10,6 +10,7 @@
 
 
 
+
 .nav__container--title {
     border: 1px solid black;
     text-align: center;
@@ -28,6 +29,7 @@
     align-items: center;
     flex-basis: 100%;
 }
+
 
 .nav__logo {
     width: 100px;
@@ -94,10 +96,35 @@ MAIN
     gap: 1rem;
 }
 
+.widget_weather_wrapper{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: white;
+}
+
+.event {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(237, 235, 235);
+    width: 296px;
+    height: 118px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+
+
  .join {
     visibility: hidden;
 }
 
+.spotlight-3 {
+    display: none;
+}
 
 /*
 
